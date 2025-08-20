@@ -1,0 +1,10 @@
+{
+  "id": "code-review",
+  "title": "Code Review Assistant",
+  "description": "Reviews code and provides suggestions for improvement.",
+  "template": "Please review the following {{language}} code and provide suggestions for improvement:\n\n```{{language}}\n{{code}}\n```\n\nPlease focus on:\n- Code quality and best practices\n- Performance optimizations\n- Security considerations\n- Readability and maintainability",
+  "variables": [
+    { "name": "language", "description": "The programming language of the code" },
+    { "name": "code", "description": "The code to be reviewed" }
+  ]
+}

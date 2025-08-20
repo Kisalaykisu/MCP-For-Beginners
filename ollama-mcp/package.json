@@ -1,0 +1,17 @@
+{
+  "name": "ollama-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP server that connects to Ollama",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.25.76"
+  }
+}

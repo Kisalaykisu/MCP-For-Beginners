@@ -1,0 +1,10 @@
+{
+  "id": "explain-concept",
+  "title": "Concept Explainer",
+  "description": "Explains complex concepts in simple terms.",
+  "template": "Please explain {{concept}} in simple terms that a {{audience}} could understand. Use examples and analogies where appropriate.",
+  "variables": [
+    { "name": "concept", "description": "The concept to be explained" },
+    { "name": "audience", "description": "The target audience (e.g., 'beginner', '10-year-old', 'college student')" }
+  ]
+}

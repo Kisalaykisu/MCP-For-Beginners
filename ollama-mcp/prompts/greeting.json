@@ -1,0 +1,9 @@
+{
+  "id": "greeting",
+  "title": "Personalized Greeting",
+  "description": "Creates a greeting using the user's name.",
+  "template": "Hello, {{name}}! Welcome to our MCP prompt demo.",
+  "variables": [
+    { "name": "name", "description": "The recipient's name" }
+  ]
+}

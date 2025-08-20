@@ -1,0 +1,19 @@
+{
+  "name": "basic-mcp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "basic-mcp-server": "./server.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0"
+  }
+}
