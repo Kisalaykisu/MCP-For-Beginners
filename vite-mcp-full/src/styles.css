@@ -1,0 +1,6 @@
+:root { font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; }
+body { margin: 0; padding: 2rem; background: #0f172a; color: #e2e8f0; }
+.app { max-width: 800px; margin: 0 auto; }
+button { padding: .6rem 1rem; background: #2563eb; color: white; border: none; border-radius: .5rem; cursor: pointer; }
+button:hover { background: #1d4ed8; }
+.hint { opacity: .8; margin-top: 1rem; }
